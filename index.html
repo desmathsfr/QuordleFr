@@ -5,36 +5,36 @@
     <title>Quordle</title>
     <meta
       name="description"
-      content="Put your skills to the test and solve four Wordles at once! You have 9 guesses to solve all four words. A new Quordle available each day to solve."
+      content="Wordle à la puissance 4 : résolvez 4 Wordle à la fois ! Vous avez 9 essais pour trouver les 4 mots. Un nouveau Quordle à résoudre est disponible chaque jour."
     />
     <meta
       name="keywords"
-      content="Quordle, Dordle, Wordle, word game, puzzle, brain teaser"
+      content="Quordle, Dordle, Wordle, LeMot, word game, puzzle, brain teaser"
     />
-    <meta name="author" content="Freddie Meyer" />
+    <meta name="author" content="Nicolas Desmarets" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no"
     />
 
     <!-- FB Meta Tags -->
-    <meta property="og:url" content="https://www.quordle.com" />
+    <meta property="og:url" content="https://quordle.desmaths.fr" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Quordle" />
     <meta
       property="og:description"
-      content="Put your skills to the test and solve four Wordles at once! You have 9 guesses to solve all four words. A new Quordle available each day to solve."
+      content="Wordle à la puissance 4 : résolvez 4 Wordle à la fois ! Vous avez 9 essais pour trouver les 4 mots. Un nouveau Quordle à résoudre est disponible chaque jour."
     />
     <meta
       property="og:image"
-      content="https://www.quordle.com/quordle-banner-1200.png"
+      content="https://quordle.desmaths.fr/quordle-banner-1200.png"
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="quordle.com" />
+    <meta property="twitter:domain" content="quordle.desmaths.fr" />
 
     <meta name="theme-color" content="#111827" />
     <meta name="color-scheme" content="dark" />
@@ -47,38 +47,12 @@
       sizes="128x128"
       href="favicon-128.png"
     />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JE1FCTKHM9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-JE1FCTKHM9');
-    </script>
-    <script
-      src="https://js.sentry-cdn.com/cd8139814dd64a07af2a72fe40bed481.min.js"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      var quordleInHost = window.location && window.location.host && window.location.host.endsWith("quordle.com")
-      if (window.Sentry) {
-        Sentry.onLoad(function() {
-          Sentry.init({
-            dsn: quordleInHost ? "https://cd8139814dd64a07af2a72fe40bed481@o1140342.ingest.sentry.io/6197424" : null,
-            environment: window.location.host.startsWith("dev.") ? "dev" : "production",
-            ignoreErrors: ["ResizeObserver", "safari-extension", "safari-web-extension", "instantSearchSDKJSBridgeClearHighlight", "webkitExitFullScreen"]
-          });
-        });
-      }
-    </script>
-    <script type="module" crossorigin src="/assets/index.49cd562d.js"></script>
+    <script type="module" crossorigin src="/assets/index.ecd37812.js"></script>
     <link rel="modulepreload" href="/assets/vendor.9211a624.js">
-    <link rel="stylesheet" href="/assets/index.5f6c42f6.css">
+    <link rel="stylesheet" href="/assets/index.e88b774a.css">
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>Vous devez activer JavaScript pour utiliser cette application.</noscript>
     <div id="root"></div>
     
   </body>
