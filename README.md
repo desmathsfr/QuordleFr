@@ -1,6 +1,6 @@
 # QuordleFr (le 1er Quordle en français)
 
-![QuordleFr](https://quordle.desmaths.fr/quordle-banner-1200.png)
+![QuordleFr](https://quordle.desmaths.fr/quordle-fr-banner-1200.png)
 
 ## Wordle à la puissance 4 : résolvez 4 Wordle à la fois !
 
@@ -37,9 +37,10 @@ En vous rendant dans les paramètres (menu déroulant en haut à droite), vous p
 - Jouer avec des couleurs plus contrastés (et donc plus adaptées aux daltoniens)
 - Choisir un clavier Qwerty
 - Désactiver les vibrations
+- Afficher les lettres déjà trouvées dans le champ de saisie
 - Ne partager que l'état final du jeu (sans les différentes étapes)
-- Réduire la hauteur d'affichage des grilles de jeu (compact ou minimal)
-- Augmenter la taille du clavier (et donc celle des touches)
+- Choisir le mode d'affichage des grilles de jeu (adapté à l'écran ou avec défilement)
+- Augmenter la taille du clavier (et donc la hauteur des touches)
 
 ## Me contacter
 
